@@ -1,9 +1,9 @@
 <template>
     <div class="centerPageContainer bg-black">
         <div class="loginBox">
-            <!-- <div class="loginLogo">
+            <div class="loginLogo">
                 <img src="@/img/logo.png" />
-            </div> -->
+            </div>
             <div class="title text-center mt-4">Benvenuto</div>
             <val-form @submit="login" class="loginForm">
                 <div class="form-group">
