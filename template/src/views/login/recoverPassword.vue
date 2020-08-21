@@ -1,9 +1,9 @@
 <template>
     <div class="centerPageContainer bg-black">
         <div class="loginBox">
-            <!-- <div class="loginLogo">
+            <div class="loginLogo">
                 <img src="@/img/logo.png" />
-            </div> -->
+            </div>
             <div class="title text-center mt-4">Recupero password</div>
             <form @submit.stop.prevent="recoverPassword" class="loginForm">
                 <p class="text-center">Inserisci la tua email per recuperare la password</p>

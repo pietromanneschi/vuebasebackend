@@ -1,9 +1,9 @@
 <template>
     <div class="centerPageContainer bg-black">
         <div class="loginBox">
-            <!-- <div class="loginLogo">
+            <div class="loginLogo">
                 <img src="@/img/logo.png" />
-            </div> -->
+            </div>
             <form @submit.stop.prevent="recoverPassword">
                 <p class="text-center">Inserisci una nuova password</p>
                 <div class="form-group">
