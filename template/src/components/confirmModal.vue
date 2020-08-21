@@ -1,6 +1,6 @@
 <template>
     <div class="opModal">
-        <p>{{text}}</p>
+        <p>\{{text}}</p>
         <div class="d-flex justify-content-around">
             <button type="button" class="btn btn-danger" @click="ko">NO</button>
             <button type="button" class="btn btn-green" @click="ok">SI</button>

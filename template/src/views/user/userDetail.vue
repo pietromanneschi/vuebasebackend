@@ -24,7 +24,7 @@
                 <label>Ruolo</label>
                 <select class="form-control" type="text" v-model="user.role">
                     <option value="">Ruolo</option>
-                    <option v-for="(item, i) in roles" :key="i" :value="item">{{item}}</option>
+                    <option v-for="(item, i) in roles" :key="i" :value="item">\{{item}}</option>
                 </select>
             </div>
             <div class="text-right">

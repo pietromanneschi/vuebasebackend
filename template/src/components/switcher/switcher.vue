@@ -1,6 +1,6 @@
 <template>
     <div class="form-group">
-        <label class="control-label">{{label}}</label>
+        <label class="control-label">\{{label}}</label>
         <div class="btn-group">
             <button type="button" class="btn btn-link" :class="value ? 'btn-green' : ''" @click="emit(true)">Si</button>
             <button type="button" class="btn btn-link" :class="!value ? 'btn-red' : ''" @click="emit(false)">No</button>

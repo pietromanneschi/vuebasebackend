@@ -7,7 +7,7 @@
             <div class="_v-autocomplete-list-item" :class="{'active': selectedIndex == i }" 
                 v-for="(item, i) in results" :key="i" @click="setResult(item)">
                 <slot :item="item" name="list-item">
-                    {{objKey ? item[objKey] : item}}
+                    \{{objKey ? item[objKey] : item}}
                 </slot>  
             </div>
         </div>

@@ -20,8 +20,8 @@
                     </button>
                 </div>
                 <mini-spinner v-else></mini-spinner>
-                <p class="text-center message">{{message}}</p>
-                <p class="text-center error">{{error}}</p>
+                <p class="text-center message">\{{message}}</p>
+                <p class="text-center error">\{{error}}</p>
                 <hr />
                 <router-link class="text-center" to="recoverPassword">
                     Ho dimenticato la password

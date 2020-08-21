@@ -18,10 +18,10 @@
             </thead>
             <tbody>
                 <tr v-for="(item, i) in data.data" :key="i">
-                    <td>{{item.createdOn | date}}</td>
-                    <td>{{item.name}}</td>
-                    <td>{{item.surname}}</td>
-                    <td>{{item.loginData.email}}</td>
+                    <td>\{{item.createdOn | date}}</td>
+                    <td>\{{item.name}}</td>
+                    <td>\{{item.surname}}</td>
+                    <td>\{{item.loginData.email}}</td>
                     <td>
                         <router-link class="btn btn-sm btn-yellow" :to="'/users/' + item.identifier">Modifica</router-link>
                     </td>

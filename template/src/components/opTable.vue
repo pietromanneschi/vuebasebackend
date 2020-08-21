@@ -12,7 +12,7 @@
             </div>
             <div class="opPaginationNumber" v-for="i in pages" :key="i"
                 :class="{selected: selectedPage == i}" @click="setSelectedPage(i)">
-                {{i}}
+                \{{i}}
             </div>
             <div class="opPaginationNumber" @click="addPage">
                 &gt;
@@ -27,7 +27,7 @@
             </div>
             <div class="opPaginationNumber" v-for="i in pages" :key="i"
                 :class="{selected: selectedPage == i}" @click="setSelectedPage(i)">
-                {{i}}
+                \{{i}}
             </div>
             <div class="opPaginationNumber" @click="addPage">
                 &gt;

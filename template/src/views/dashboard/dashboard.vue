@@ -1,9 +1,9 @@
 <template>
     <div class="formPage">
-        <h3 class="pageTitle">Benvenuto {{$store.state.user.name}}</h3>
+        <h3 class="pageTitle">Benvenuto \{{$store.state.user.name}}</h3>
         <mini-spinner v-if="loading"></mini-spinner>
         <div v-else>
-            {{vm}}
+            \{{vm}}
         </div>
     </div>
 </template>

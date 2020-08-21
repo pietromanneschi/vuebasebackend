@@ -16,8 +16,8 @@
                         Invia
                     </button>
                 </div>
-                <div class="text-center mt-2 success" v-if="message">{{message}}</div>
-                <div class="text-center mt-2 error" v-if="error">{{error}}</div>
+                <div class="text-center mt-2 success" v-if="message">\{{message}}</div>
+                <div class="text-center mt-2 error" v-if="error">\{{error}}</div>
                 <hr />
                 <router-link class="text-center" to="/">
                     Torna alla login

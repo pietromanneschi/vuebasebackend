@@ -10,7 +10,7 @@
                         Benvenuto
                     </div>
                     <div class="text-white">
-                        {{$store.state.user.name}} {{$store.state.user.surname}}
+                        \{{$store.state.user.name}} \{{$store.state.user.surname}}
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
         <div class="d-flex">
             <div class="leftNavTabs" v-if="userRoutes.length > 0">
                 <router-link class="leftNavTab" :to="item.path" v-for="(item, i) in userRoutes" :key="i">
-                    {{item.text}}
+                    \{{item.text}}
                 </router-link>
                 <div class="leftNavTab pointer" @click="logout">
                     Logout

@@ -16,7 +16,7 @@
                         Invia
                     </button>
                 </div>
-                <p class="text-center message" v-if="message">{{message}}</p>
+                <p class="text-center message" v-if="message">\{{message}}</p>
                 <hr />
                 <router-link class="text-center" to="/">
                     Torna alla login

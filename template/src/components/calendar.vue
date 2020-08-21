@@ -8,19 +8,19 @@
             <div class="prev" @click="goPrev">
                 <i class="fa fa-chevron-left"></i>
             </div>
-            <div class="navigatorTitle">{{navigatorTitle}}</div>
+            <div class="navigatorTitle">\{{navigatorTitle}}</div>
             <div class="next" @click="goNext">
                 <i class="fa fa-chevron-right"></i>
             </div>
         </div>
         <div class="weekDaysContainer" v-if="mode == 'month'">
             <div class="weekDay" v-for="(giorno, i) in originalWeekDays" :key="i">
-                <b>{{giorno}}</b>
+                <b>\{{giorno}}</b>
             </div>
         </div>
         <div class="weekDaysContainer" v-else>
             <div class="weekDay" v-for="(giorno, i) in weekDays" :key="i">
-                <b>{{giorno}}</b>
+                <b>\{{giorno}}</b>
             </div>
         </div>
         <div class="calendarDaysContainer" ref="daysContainer">
